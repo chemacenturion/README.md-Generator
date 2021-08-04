@@ -74,6 +74,27 @@ inquirer
         * [Tests](Tests)
         * [Questions](#Questions)
 
-        
-        `
+        ##Installation
+        * To install neccesary dependencies please run the following command:
+        ${answer.installation}
+
+        ##Usage
+        ${answer.usage}
+
+        ##License
+        ${answer.license}
+
+        ##Contributing
+        ${answer.contribution}
+
+        ##Tests
+        *To run tests run the following command:
+        ${answer.tests}
+
+        ##Questions
+        Please reach out to me with any further questions!
+        You can reach me via my contact info listed below:
+        ${answer.username}
+        ${answer.email}
+        `;
     }
