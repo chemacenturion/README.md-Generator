@@ -152,7 +152,7 @@ ${answer.username}
     switch (license) {
         case 'MIT':
             return mitLicense;
-        case 'Apache2.0':
+        case 'Apache 2.0':
             return apacheLicense;
         }
       }
