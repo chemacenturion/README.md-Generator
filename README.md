@@ -1,7 +1,8 @@
 ## README.md Generator ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-This project centers around creating a user friendly README.md generator via node.js within the terminal.
+This project centers around creating a user friendly README.md generator via node.js within the terminal. Please visit the file above entitled 
+'generatedREADME.md' to see the result of the node index.js generated README.
 
 ## Table of Contents:
 * [Demonstration](#Demonstration)
@@ -13,9 +14,9 @@ This project centers around creating a user friendly README.md generator via nod
 * [Questions](#Questions)
 
 ## Demonstration
-![Video Tutorial](https://drive.google.com/file/d/1lT9_vi0IW3VJjuOOIvfelAPdz3LZigS7/view)
+[Video Tutorial](https://drive.google.com/file/d/1lT9_vi0IW3VJjuOOIvfelAPdz3LZigS7/view)
 
-![Quick GIF](https://drive.google.com/file/d/1lT9_vi0IW3VJjuOOIvfelAPdz3LZigS7/view)
+[Quick GIF](https://drive.google.com/file/d/1lT9_vi0IW3VJjuOOIvfelAPdz3LZigS7/view)
 
 ## Installation
 * To install neccesary dependencies please run the following command:
