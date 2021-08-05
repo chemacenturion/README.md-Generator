@@ -3,6 +3,7 @@
 ## Description
 This project centers around creating a user friendly README.md generator via node.js within the terminal. Please visit the file above entitled 
 'generatedREADME.md' to see the result of the node index.js generated README.
+<br/>
 *NOTE: PLEASE VIEW TUTORIAL VIDEO IN FULL SCREEN FOR BEST QUALITY!
 
 ## Table of Contents:
