@@ -84,25 +84,26 @@ ${answer.description}
 * [Tests](Tests)
 * [Questions](#Questions)
 
-##Installation
+## Installation
 * To install neccesary dependencies please run the following command:
 ${answer.installation}
 
-##Usage
+## Usage
 ${answer.usage}
 
-##License
+## License
 ${answer.license} Copyright: ${answer.year} ${answer.name}
+<br/>
 ${licenseText(answer.license)}
 
-##Contributing
+## Contributing
 ${answer.contribution}
 
-##Tests
+## Tests
 *To run tests run the following command:
 ${answer.tests}
 
-##Questions
+## Questions
 Please reach out to me with any further questions!
 <br/>
 You can reach me via my contact info listed below:

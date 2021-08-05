@@ -1,8 +1,8 @@
 
-## README.md Generator ![LicenseImage](https://img.shields.io/badge/License-MIT-yellow.svg)
+## README.md Generator ![LicenseImage]()
 
 ## Description
-This project centers around generating a professional README.md in the terminal quickly.
+This project centers around creating a user friendly README.md generator via node.js within the terminal.
 
 ## Table of Contents:
 * [Installation](#Installation)
@@ -12,25 +12,26 @@ This project centers around generating a professional README.md in the terminal 
 * [Tests](Tests)
 * [Questions](#Questions)
 
-##Installation
+## Installation
 * To install neccesary dependencies please run the following command:
 npm install
 
-##Usage
-To allow users to generate professional README.md's via node.js in the terminal quickly.
+## Usage
+To create professional README.md quickly within the terminal.
 
-##License
-MIT Copyright: 2021 Jose Centurion
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: <br/> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. <br/> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## License
+Apache 2.0 Copyright: 2021 Jose Centurion
+<br/>
+undefined
 
-##Contributing
-This project is closed to outside contributions at the current time.
+## Contributing
+No outside contributions are being accepted for this project.
 
-##Tests
+## Tests
 *To run tests run the following command:
 npm test
 
-##Questions
+## Questions
 Please reach out to me with any further questions!
 <br/>
 You can reach me via my contact info listed below:
