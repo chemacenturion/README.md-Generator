@@ -16,7 +16,7 @@ This project centers around creating a user friendly README.md generator via nod
 ## Demonstration
 [Video Tutorial](https://drive.google.com/file/d/1lT9_vi0IW3VJjuOOIvfelAPdz3LZigS7/view)
 
-[Quick GIF](https://github.com/chemacenturion/README.md-Generator/blob/main/images/Untitled_%20Aug%205,%202021%2012_09%20PM.gif?raw=true)
+![Quick GIF](https://github.com/chemacenturion/README.md-Generator/blob/main/images/Untitled_%20Aug%205,%202021%2012_09%20PM.gif?raw=true)
 
 ## Installation
 * To install neccesary dependencies please run the following command:
