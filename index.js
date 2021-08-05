@@ -81,7 +81,7 @@ ${answer.description}
 * [Usage](#Usage)
 * [License](#License)
 * [Contributing](#Contributing)
-* [Tests](Tests)
+* [Tests](#Tests)
 * [Questions](#Questions)
 
 ## Installation

@@ -9,7 +9,7 @@ This project centers around creating a user friendly README.md generator via nod
 * [Usage](#Usage)
 * [License](#License)
 * [Contributing](#Contributing)
-* [Tests](Tests)
+* [Tests](#Tests)
 * [Questions](#Questions)
 
 ## Installation
