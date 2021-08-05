@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+function init() {
 
 inquirer
     .prompt([
@@ -59,47 +60,46 @@ inquirer
 
     ])
     .then((answer) => {
-        console.log(response);
         let questions =
-        `# ${answer.title}
-        
-        ## Description
-        ${answer.description}
+    `# ${answer.title}
+    
+    ## Description
+    ${answer.description}
 
-        ## Table of Contents:
-        * [Installation](#Installation)
-        * [Usage](#Usage)
-        * [License](#License)
-        * [Contributing](#Contributing)
-        * [Tests](Tests)
-        * [Questions](#Questions)
+    ## Table of Contents:
+    * [Installation](#Installation)
+    * [Usage](#Usage)
+    * [License](#License)
+    * [Contributing](#Contributing)
+    * [Tests](Tests)
+    * [Questions](#Questions)
 
-        ##Installation
-        * To install neccesary dependencies please run the following command:
-        ${answer.installation}
+    ##Installation
+    * To install neccesary dependencies please run the following command:
+    ${answer.installation}
 
-        ##Usage
-        ${answer.usage}
+    ##Usage
+    ${answer.usage}
 
-        ##License
-        ${answer.license}
+    ##License
+    ${answer.license}
 
-        ##Contributing
-        ${answer.contribution}
+    ##Contributing
+    ${answer.contribution}
 
-        ##Tests
-        *To run tests run the following command:
-        ${answer.tests}
+    ##Tests
+    *To run tests run the following command:
+    ${answer.tests}
 
-        ##Questions
-        Please reach out to me with any further questions!
-        You can reach me via my contact info listed below:
-        ${answer.username}
-        ${answer.email}
-        `;
+    ##Questions
+    Please reach out to me with any further questions!
+    You can reach me via my contact info listed below:
+    ${answer.username}
+    ${answer.email}
+    `;
         generateReadMe(fileName, questions)
-    })
-
+    });
+}
     const fileName = "README.md";
 
     function generateReadMe(fileName, answer) {
