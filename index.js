@@ -71,7 +71,7 @@ inquirer
     .then((answer) => {
         let questions =
     `
-## ${answer.title} ![LicenseImage](${licenseBadge(answer.license)})
+## ${answer.title} ${licenseBadge(answer.license)}
 
 ## Description
 ${answer.description}

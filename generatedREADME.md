@@ -1,5 +1,5 @@
 
-## README.md Generator ![LicenseImage]([![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)])
+## README.md Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
 ## Description
 This project centers around the task of generating a README.md inside the terminal with node.js and inquirer prompts.
