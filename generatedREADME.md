@@ -1,8 +1,8 @@
 
-## b
+## README.md Generator ![LicenseImage](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-b
+This project centers around generating a professional README.md in the terminal quickly.
 
 ## Table of Contents:
 * [Installation](#Installation)
@@ -12,26 +12,29 @@ b
 * [Tests](Tests)
 * [Questions](#Questions)
 
-## Installation
+##Installation
 * To install neccesary dependencies please run the following command:
-b
+npm install
 
-## Usage
-b
+##Usage
+To allow users to generate professional README.md's via node.js in the terminal quickly.
 
-## License
-MIT
+##License
+MIT Copyright: 2021 Jose Centurion
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: <br/> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. <br/> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## Contributing
-b
+##Contributing
+This project is closed to outside contributions at the current time.
 
-## Tests
+##Tests
 *To run tests run the following command:
 npm test
 
-## Questions
+##Questions
 Please reach out to me with any further questions!
+<br/>
 You can reach me via my contact info listed below:
-b
-b
-    
+<br/>
+https://github.com/chemacenturion
+<br/>
+centurion.philadelphia@gmail.com

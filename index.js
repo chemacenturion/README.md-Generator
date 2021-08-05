@@ -6,6 +6,16 @@ inquirer
     .prompt([
         {
             type:'input',
+            name:'name',
+            message:'Please enter your first and last name.',
+        },
+        {
+            type:'input',
+            name:'year',
+            message:'Please enter the current year in YYYY format.',
+        },
+        {
+            type:'input',
             name:'title',
             message:'What is the title of your project?',
         },
@@ -43,7 +53,6 @@ inquirer
             choices: [
                 "MIT",
                 "Apache 2.0",
-                "IBM",
                 "None"
             ]
         },
@@ -62,7 +71,7 @@ inquirer
     .then((answer) => {
         let questions =
     `
-## ${answer.title}
+## ${answer.title} ![LicenseImage](${licenseBadge(answer.license)})
 
 ## Description
 ${answer.description}
@@ -83,7 +92,8 @@ ${answer.installation}
 ${answer.usage}
 
 ##License
-${answer.license}
+${answer.license} Copyright: ${answer.year} ${answer.name}
+${licenseText(answer.license)}
 
 ##Contributing
 ${answer.contribution}
@@ -94,14 +104,20 @@ ${answer.tests}
 
 ##Questions
 Please reach out to me with any further questions!
+<br/>
 You can reach me via my contact info listed below:
+<br/>
 ${answer.username}
+<br/>
 ${answer.email}
-    `;
-        generateReadMe(fileName, questions)
-    });
+`;
+        
+    generateReadMe(fileName, questions)
+    
+});
+
 }
-    const fileName = "generatedREADME.md";
+    const fileName = 'generatedREADME.md';
 
     function generateReadMe(fileName, answer) {
         fs.writeFile(fileName, answer, function(err) {
@@ -112,4 +128,31 @@ ${answer.email}
         });
     }
 
-    init();
+    function licenseBadge(license) {
+    const mitBadge = 'https://img.shields.io/badge/License-MIT-yellow.svg'
+    const apacheBadge = 'https://img.shields.io/badge/License-Apache%202.0-blue.svg'
+    
+    switch (license) {
+        case "MIT":
+            return mitBadge;
+        case "Apache2.0":
+            return apacheBadge;
+        default:
+            return '';
+        }
+    }
+
+    function licenseText(license) {
+    const mitLicense = 'Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: <br/> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. <br/> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'
+
+    const apacheLicense = 'Licensed under the Apache License, Version 2.0 (the "License"); <br/> you may not use this file except in compliance with the License. <br/> You may obtain a copy of the License at: <br/> http://www.apache.org/licenses/LICENSE-2.0 <br/> Unless required by applicable law or agreed to in writing, software <br/> distributed under the License is distributed on an "AS IS" BASIS, <br/> WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. <br/> See the License for the specific language governing permissions and <br/> limitations under the License.'
+        
+    switch (license) {
+        case 'MIT':
+            return mitLicense;
+        case 'Apache2.0':
+            return apacheLicense;
+        }
+      }
+
+init();
