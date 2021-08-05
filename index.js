@@ -61,53 +61,54 @@ inquirer
     ])
     .then((answer) => {
         let questions =
-    `# ${answer.title}
-    
-    ## Description
-    ${answer.description}
+    `
+## ${answer.title}
 
-    ## Table of Contents:
-    * [Installation](#Installation)
-    * [Usage](#Usage)
-    * [License](#License)
-    * [Contributing](#Contributing)
-    * [Tests](Tests)
-    * [Questions](#Questions)
+## Description
+${answer.description}
 
-    ##Installation
-    * To install neccesary dependencies please run the following command:
-    ${answer.installation}
+## Table of Contents:
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](Tests)
+* [Questions](#Questions)
 
-    ##Usage
-    ${answer.usage}
+##Installation
+* To install neccesary dependencies please run the following command:
+${answer.installation}
 
-    ##License
-    ${answer.license}
+##Usage
+${answer.usage}
 
-    ##Contributing
-    ${answer.contribution}
+##License
+${answer.license}
 
-    ##Tests
-    *To run tests run the following command:
-    ${answer.tests}
+##Contributing
+${answer.contribution}
 
-    ##Questions
-    Please reach out to me with any further questions!
-    You can reach me via my contact info listed below:
-    ${answer.username}
-    ${answer.email}
+##Tests
+*To run tests run the following command:
+${answer.tests}
+
+##Questions
+Please reach out to me with any further questions!
+You can reach me via my contact info listed below:
+${answer.username}
+${answer.email}
     `;
         generateReadMe(fileName, questions)
     });
 }
-    const fileName = "README.md";
+    const fileName = "generatedREADME.md";
 
     function generateReadMe(fileName, answer) {
         fs.writeFile(fileName, answer, function(err) {
             if (err) {
                 return console.log(err);
             }
-            console.log('Success!');
+            console.log('README generated!');
         });
     }
 
