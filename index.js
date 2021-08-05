@@ -131,8 +131,8 @@ ${answer.username}
     }
 
     function licenseBadge(license) {
-    const mitBadge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
-    const apacheBadge = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+    const mitBadge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]'
+    const apacheBadge = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]'
     
     switch (license) {
         case "MIT":
