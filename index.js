@@ -92,7 +92,7 @@ ${answer.installation}
 ${answer.usage}
 
 ## License
-${answer.license} Copyright: ${answer.year} ${answer.name}
+${answer.license} Copyright: ${answer.name} ${answer.year}
 <br/>
 ${licenseText(answer.license)}
 
@@ -100,17 +100,18 @@ ${licenseText(answer.license)}
 ${answer.contribution}
 
 ## Tests
-*To run tests run the following command:
+* To run tests run the following command:
 ${answer.tests}
 
 ## Questions
-Please reach out to me with any further questions!
+Please reach out to me with any further questions via email at:
+<br/>
+${answer.email}
 <br/>
 You can reach me via my contact info listed below:
 <br/>
 ${answer.username}
-<br/>
-${answer.email}
+
 `;
         
     generateReadMe(fileName, questions)
@@ -130,8 +131,8 @@ ${answer.email}
     }
 
     function licenseBadge(license) {
-    const mitBadge = 'https://img.shields.io/badge/License-MIT-yellow.svg'
-    const apacheBadge = 'https://img.shields.io/badge/License-Apache%202.0-blue.svg'
+    const mitBadge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+    const apacheBadge = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
     
     switch (license) {
         case "MIT":

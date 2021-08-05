@@ -2,7 +2,7 @@
 ## README.md Generator ![LicenseImage]()
 
 ## Description
-This project centers around creating a user friendly README.md generator via node.js within the terminal.
+This project centers around the task of generating a README.md inside the terminal with node.js and inquirer prompts.
 
 ## Table of Contents:
 * [Installation](#Installation)
@@ -17,25 +17,26 @@ This project centers around creating a user friendly README.md generator via nod
 npm install
 
 ## Usage
-To create professional README.md quickly within the terminal.
+Allow a user to generate a clean professional README.md quickly within the terminal using node.js.
 
 ## License
-Apache 2.0 Copyright: 2021 Jose Centurion
+Apache 2.0 Copyright: Jose Centurion 2021
 <br/>
 undefined
 
 ## Contributing
-No outside contributions are being accepted for this project.
+No outside contributions for this project are being accepted at this time.
 
 ## Tests
-*To run tests run the following command:
+* To run tests run the following command:
 npm test
 
 ## Questions
-Please reach out to me with any further questions!
+Please reach out to me with any further questions via email at:
+<br/>
+centurion.philadelphia@gmail.com
 <br/>
 You can reach me via my contact info listed below:
 <br/>
 https://github.com/chemacenturion
-<br/>
-centurion.philadelphia@gmail.com
+
