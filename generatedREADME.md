@@ -5,31 +5,31 @@
 b
 
 ## Table of Contents:
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [License](#License)
-* [Contributing](#Contributing)
-* [Tests](Tests)
-* [Questions](#Questions)
+# [Installation](#Installation)
+# [Usage](#Usage)
+# [License](#License)
+# [Contributing](#Contributing)
+# [Tests](Tests)
+# [Questions](#Questions)
 
-##Installation
+## Installation
 * To install neccesary dependencies please run the following command:
 b
 
-##Usage
+## Usage
 b
 
-##License
+## License
 MIT
 
-##Contributing
+## Contributing
 b
 
-##Tests
+## Tests
 *To run tests run the following command:
 npm test
 
-##Questions
+## Questions
 Please reach out to me with any further questions!
 You can reach me via my contact info listed below:
 b
