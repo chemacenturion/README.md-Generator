@@ -58,9 +58,9 @@ inquirer
         },
 
     ])
-    .then((answer)) => {
+    .then((answer) => {
         console.log(response);
-        let answers =
+        let questions =
         `# ${answer.title}
         
         ## Description
@@ -97,4 +97,18 @@ inquirer
         ${answer.username}
         ${answer.email}
         `;
+        generateReadMe(fileName, questions)
+    })
+
+    const fileName = "README.md";
+
+    function generateReadMe(fileName, answer) {
+        fs.writeFile(fileName, answer, function(err) {
+            if (err) {
+                return console.log(err);
+            }
+            console.log('Success!');
+        });
     }
+
+    init();
